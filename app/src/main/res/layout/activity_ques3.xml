@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.divya.chemistryquiz.Ques3">
+    <TextView
+        android:id="@+id/Q3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="Ques 3. Electric bulb filament is made up of"
+        android:textColor="#4169E1"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
+
+    <RadioGroup
+        android:id="@+id/grp3"
+        android:layout_width="250dp"
+        android:layout_height="300dp">
+
+        <RadioButton
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="copper" />
+
+        <RadioButton
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Aluminium" />
+
+        <RadioButton
+            android:id="@+id/bt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Lead" />
+
+        <RadioButton
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tungsten
+" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/pr"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="250dp"
+        android:text="PREVIOUS"
+        android:textColor="#FF0000" />
+
+    <Button
+        android:id="@+id/sb"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="250dp"
+        android:text="submit"
+        android:textColor="#00008B" />
+
+</LinearLayout>
